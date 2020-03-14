@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formulário</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="./css/estilo.css">		
+
+		<script type="text/javascript" src="./js/script.js"></script>
+		
+	</head>
+	<body>
+
+		<a href="#" onclick="message('Olá link!');">Link</a>
+
+		<h1>Formulário</h1>
+
+		<form method="POST" id="formulario" onsubmit="addLinha(); return false">
+
+			<div class="div-campos">
+				<label>Nome:</label>
+				<input id="field-nome" type="text" name="nome" placeholder="Digite seu nome">
+			</div>
+
+			<div>
+				<label>CPF:</label>
+				<input id="field-cpf" type="text" name="cpf">
+			</div>
+
+			<div>
+				<label>Data de Nascimento:</label>
+				<input id="field-nascimento" type="date" name="data_nascimento">
+			</div>
+
+			<div>
+				<label>E-mail:</label>
+				<input id="field-email" type="email" name="email">
+			</div>
+
+			<div>
+				<label>Cidade:</label>
+				<select id="field-cidade" name="cidade">
+					<option>----</option>
+					<option value="Lavras">
+						Lavras
+					</option>
+					<option selected value="Três Corações">
+						Três Corações
+					</option>
+				</select>
+			</div>
+
+			<div>
+				<button>Enviar</button>		
+			</div>
+
+		</form>		
+
+        <table id="tabela" border="1px" cellpadding="5px" cellspacing="0">
+            <tr>
+                <th>Nome</th>
+                <th>CPF</th>
+                <th>Data de Nascimento</th>
+                <th>Email</th>
+                <th>Cidade</th>
+            </tr>
+
+        </table>
+        
+	</body>
+</html>

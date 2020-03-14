@@ -1,0 +1,36 @@
+h1{
+	color: red;
+	font-size: 18px;
+}
+
+div h1{
+	color: blue;
+	font-size: 16px;
+}
+
+form label{
+	color: green;
+}
+
+div{
+	border: 1px solid;
+	margin: 10px 0px 0px 0px;
+	padding: 10px;
+}
+
+#div-usuario{
+	border: 1px solid orange;
+}
+
+.div-campos{
+	border: 1px solid red;	
+}
+
+form{
+	border: 1px solid grey;
+	padding: 10px;
+}
+
+table {
+    margin: 30px auto;
+}
